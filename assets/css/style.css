@@ -1,78 +1,12 @@
-html,
-body {
-  height: 100%;
-}
-body {
-  display: flex;
-  flex-direction: column;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-  margin: 5px;
-}
 h1 {
-  display: inline;
-}
-content {
-  flex: 1 0 auto;
-}
-footer {
-  flex-shrink: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-a {
-  background-color: #f44336;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-ul {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border: 1px solid #e7e7e7;
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: right;
-  border-left: 1px solid #bbb;
-}
-
-li:first-child {
-  border-right: none;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111111;
-}
-
-#title {
-  text-align: left;
-  color: aqua;
-}
-
-li a.active {
-  background-color: #4caf50;
-  color: white;
-  float: right;
-}
-
-#profile-image {
-  float: left;
+body {
+  background-image: url(assets\images\dot-grid.png);
+  width: 960px;
 }
