@@ -79,6 +79,31 @@ p {
   line-height: 25px;
 }
 
+/* contact */
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+}
+
+#message {
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #cccccc;
+}
+
+#submit {
+  background-color: #4aaaa5;
+  padding: 10px;
+  color: white;
+  border: none;
+}
+
 /* footer */
 
 #footer-div {
