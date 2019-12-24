@@ -51,7 +51,7 @@ h1 {
 /* body-div */
 #body-div {
   border-top: 2px solid #dddddd;
-  background-image: url("../images/wall3.png");
+  background-image: url("../images/wall.png");
   overflow: auto;
 }
 
@@ -104,6 +104,21 @@ input {
   border: none;
 }
 
+/* portfolio */
+table {
+  width: 100%;
+  border-spacing: 1em 0.5em;
+  padding: 0 2em 1em 0;
+}
+
+tr {
+  height: 200px;
+}
+
+td {
+  border: 1px solid #cccccc;
+}
+
 /* footer */
 
 #footer-div {
@@ -112,6 +127,10 @@ input {
   border-top: 8px solid #4aaaa5;
   background-color: #666666;
   text-align: center;
+  flex-shrink: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  /* top: 0; */
 }
 
 footer {
@@ -119,4 +138,8 @@ footer {
   padding-top: 30px;
   color: white;
   font-size: smaller;
+  flex-shrink: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  /* top: 0; */
 }
