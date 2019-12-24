@@ -1,12 +1,61 @@
+/* universal */
+
 * {
   font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
 }
 
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-body {
-  background-image: url(assets\images\dot-grid.png);
+/* header-div */
+
+#header-div {
+  overflow: auto;
+}
+
+#header-div > div {
   width: 960px;
+  margin: auto;
+  overflow: auto;
+}
+
+#header-div > div > h1 {
+  float: left;
+  margin: 0;
+}
+
+#header-div > div > ul {
+  float: right;
+  padding: 0;
+  height: max-content;
+}
+
+#header-div > div > ul > li {
+  display: inline;
+}
+
+/* body-div */
+#body-div {
+  clear: both;
+  width: 960px;
+  margin: auto;
+}
+
+/* footer */
+
+#footer-div {
+  position: sticky;
+  height: 50px;
+  border-top: 8px solid #4aaaa5;
+  background-color: #666666;
+  text-align: center;
+}
+
+footer {
+  height: 100%;
+  padding-top: 30px;
+  color: white;
+  font-size: smaller;
 }
