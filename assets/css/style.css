@@ -50,9 +50,33 @@ h1 {
 
 /* body-div */
 #body-div {
+  border-top: 2px solid #dddddd;
+  background-image: url("../images/wall3.png");
+  overflow: auto;
+}
+
+#main {
   clear: both;
   width: 960px;
-  margin: auto;
+  margin: 20px auto 50px;
+  background-color: white;
+  padding: 20px;
+}
+
+img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+#main > h1 {
+  border-bottom: 2px solid #dddddd;
+  color: #4aaaa5;
+  padding-bottom: 30px;
+}
+
+p {
+  line-height: 25px;
 }
 
 /* footer */
