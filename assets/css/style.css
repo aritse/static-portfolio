@@ -81,6 +81,7 @@ img {
   border-bottom: 2px solid #dddddd;
   color: #4aaaa5;
   padding-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 p {
@@ -112,7 +113,6 @@ input {
 
 #submit {
   background-color: #4aaaa5;
-  padding: 10px;
   color: white;
   border: none;
 }
