@@ -58,7 +58,7 @@ h1 {
 #main {
   clear: both;
   width: 960px;
-  margin: 20px auto 50px;
+  margin: 110px auto 200px;
   background-color: white;
   padding: 20px;
 }
@@ -139,7 +139,7 @@ td {
 
 footer {
   height: 100%;
-  padding-top: 30px;
+  padding-top: 20px;
   color: white;
   font-size: smaller;
   flex-shrink: 0;
